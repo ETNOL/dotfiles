@@ -1,0 +1,17 @@
+#!/bin/bash
+
+cal-search () {
+  cat ~/Projects/calendar/calendar.txt | grep -i "$1"
+}
+
+cal-open () {
+  vim +/"$1" ~/Projects/calendar/calendar.txt;
+}
+
+cal-today () {
+  vim +/$(date +%Y-%m-%d) ~/Projects/calendar/calendar.txt;
+}
+
+alias cal-s='cal-search'
+alias cal-o='cal-open'
+alias cal-t='cal-today'
