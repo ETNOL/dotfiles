@@ -2,7 +2,7 @@
 alias gpl="git pull"
 alias gc="git commit"
 alias gck="git checkout"
-alias gckm="git checkout master"
+alias gckm="git checkout master | git checkout main"
 alias gph="git push"
 alias gphh="git push origin HEAD"
 alias gs="git status"
@@ -14,6 +14,7 @@ alias fucking="sudo"
 alias api="cd ~/Projects/mediavine/api"
 alias ad="cd ~/Projects/mediavine/automated-direct"
 alias wrapper="cd ~/Projects/mediavine/web-wrapper"
+alias grow="cd ~/Projects/mediavine/grow-me"
 alias wlauncher="cd ~/Projects/mediavine/web-launcher-service"
 alias vlauncher="cd ~/Projects/mediavine/video-launcher-service"
 alias video="cd ~/Projects/mediavine/video-player"
@@ -32,5 +33,9 @@ alias caly="~/Projects/calendar/calendar.txt"
 
 alias up='~/.update.sh'
 alias tag='~/.tagnpush.sh'
+alias gf='~/.fetchncheckout.sh'
+alias gcki='~/dotfiles/.ticketChange.sh'
+alias gckz='~/dotfiles/.ticketChange.sh'
+
 
 
