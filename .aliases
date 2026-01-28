@@ -19,7 +19,7 @@ alias wlauncher="cd ~/Projects/mediavine/web-launcher-service"
 alias vlauncher="cd ~/Projects/mediavine/video-launcher-service"
 alias video="cd ~/Projects/mediavine/video-player"
 alias s2s="cd ~/Projects/mediavine/s2s"
-alias pver="git describe --tags --abbrev=0"
+alias pver="~/dotfiles/.get-master-tag.sh"
 alias cd..='cd ../'                         # Go back 1 directory level (for fast typers)
 alias ..='cd ../'                           # Go back 1 directory level
 alias ...='cd ../../'                       # Go back 2 directory levels
@@ -32,10 +32,12 @@ alias yt='yarn test'
 alias caly="~/Projects/calendar/calendar.txt"
 
 alias up='~/.update.sh'
-alias tag='~/.tagnpush.sh'
+alias tag='~/dotfiles/.tagnpush.sh'
 alias gf='~/.fetchncheckout.sh'
 alias gcki='~/dotfiles/.ticketChange.sh'
 alias gckz='~/dotfiles/.ticketChange.sh'
+alias ghist='~/dotfiles/.gitHist.sh'
+
 
 
 
